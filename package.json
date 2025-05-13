@@ -1,11 +1,11 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Full-stack chat app with Express backend and React frontend",
   "main": "backend/server.js",
   "scripts": {
-    "server": "nodemon backend/utils/server.js",
-    "start": "node backend/utils/server.js",
+    "dev": "nodemon backend/server.js",
+    "start": "node backend/server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "type": "module",
